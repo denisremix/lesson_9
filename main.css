@@ -1,0 +1,71 @@
+@font-face {
+font-family: "Arial Rounded MT Bold";
+src: url("./assets/fonts/8665.ttf");
+}
+
+root {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body{
+	margin:0;
+	z-index: 1;
+	background-color: rgba(35,52,69,0.5);
+	font-family: "Arial Rounded MT Bold";
+}
+
+.container{
+	background-color: white;
+	border-radius: 15px;
+	width: 70vw;
+	height: 86vh;
+	position: fixed;
+	left: 15%;
+	text-align: center;
+	margin-top: 80px;
+}
+
+.chat{
+	border-radius: 25px;
+	color: white;
+	background-color: #fe8502;
+	border: none;
+	width: 100px;
+	height: 35px;
+	font-size: 14px;
+}
+.close_window{
+	color: #fe8502;
+	font-size: 18px;
+	position: absolute;
+	top:16px;
+	right: 16px;
+}
+
+.face{
+	position: relative;
+	padding-top: 120px;
+}
+.face img{
+	width: 35%;
+}
+
+.title{
+	padding-top: 70px;
+}
+
+.content{
+	text-align: center;
+	max-width: 291px;
+	margin: 0 auto;
+	color: #979fae;
+	font-size: 18px;
+	padding-bottom: 43px;
+
+}
